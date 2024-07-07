@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --accent-color: #dedede;
+} */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+.benefits__section .benefits__cards--wrapper svg {
+  stroke: #9e99a3;
+}
+
+.isotype-card {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.google-cards-wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #2bcef9 !important;
+}
