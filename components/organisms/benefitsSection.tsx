@@ -11,7 +11,7 @@ export default function BenefitsSection() {
   return (
     <section className="benefits__section bg-primary-300">
       <Container className="py-0 md:py-10">
-        <div className="benefits__section--container section__wrapper lg:flex">
+        <div className="benefits__section--container section__wrapper lg:flex lg:gap-5">
           <div className="benefits__intro md:w-2/6">
             {BenefitsContent.map((item) => {
               return (
