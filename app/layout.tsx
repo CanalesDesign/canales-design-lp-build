@@ -30,7 +30,7 @@ export default function RootLayout({
     <html lang="PT-br" className="bg-primary">
       <body className={librefranklin.className}>
         {children}
-        <GoogleTagManager gtmId="GTM-PPT29TK" />
+        <GoogleTagManager gtmId="GTM-PPRTNJ8C" />
         <CookieEyesBanner />
       </body>
     </html>
