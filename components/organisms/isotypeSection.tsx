@@ -47,7 +47,7 @@ export default function IsotypeSection() {
           <InlineLink
             label="Faça dowload do Logofolio"
             iconRight={<ArrowDown />}
-            path="https://canalesdesign.com.br/public/canales_design_logofolio.pdf"
+            path="https://canalesdesign.com.br/canales_design_logofolio.pdf"
             target="_blank"
           />
         </div>
