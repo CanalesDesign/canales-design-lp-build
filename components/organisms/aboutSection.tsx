@@ -55,7 +55,9 @@ export default function AboutSection() {
                   </a>
                   <a
                     className="block"
-                    href="mailto:rodrigo@canalesdesign.com.br"
+                    onClick={() =>
+                      (window.location.href = "rodrigo@canalesdesign.com.br")
+                    }
                     target="_blank"
                     role="link">
                     <Icon

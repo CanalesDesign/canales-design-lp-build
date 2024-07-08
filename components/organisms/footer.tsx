@@ -1,3 +1,4 @@
+"use client";
 import { FooterContent, NextContent } from "@/data/footer-data";
 import Container from "@/atoms/container";
 import Heading from "@/atoms/headings";
@@ -51,7 +52,10 @@ export default function Footer() {
                       </a>
                       <a
                         className="block"
-                        href={item.emailpath}
+                        onClick={() =>
+                          (window.location.href =
+                            "rodrigo@canalesdesign.com.br")
+                        }
                         target="_blank"
                         role="link">
                         <Icon
