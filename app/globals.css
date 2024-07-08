@@ -33,3 +33,8 @@ body {
 .swiper-pagination-bullet-active {
   background-color: #2bcef9 !important;
 }
+
+.cky-btn-revisit-wrapper {
+  display: none !important;
+  visibility: hidden !important;
+}
