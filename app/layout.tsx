@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
 import { Libre_Franklin } from "next/font/google";
-import "./globals.css";
-import CookieEyesBanner from "@/components/atoms/cookieEyesBanner";
+import type { Metadata } from "next";
 import { GoogleTagManager } from "@next/third-parties/google";
+import CookieEyesBanner from "@/components/atoms/cookieEyesBanner";
+
+import "./globals.css";
 
 const librefranklin = Libre_Franklin({ subsets: ["latin"] });
 
@@ -27,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="PT-br" className="bg-primary">
+    <html lang="pt-BR" className="bg-primary">
       <body className={librefranklin.className}>
         {children}
         <GoogleTagManager gtmId="GTM-PPRTNJ8C" />
