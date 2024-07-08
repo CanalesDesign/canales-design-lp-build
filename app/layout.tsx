@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Libre_Franklin } from "next/font/google";
 import "./globals.css";
 import CookieEyesBanner from "@/components/atoms/cookieEyesBanner";
-import TagManager from "@/components/atoms/tagManager";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const librefranklin = Libre_Franklin({ subsets: ["latin"] });
 
@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="PT-br" className="bg-primary">
-      <TagManager />
+      <GoogleTagManager gtmId="GTM-PPT29TK" />
       <body className={librefranklin.className}>
         {children}
         <CookieEyesBanner />
