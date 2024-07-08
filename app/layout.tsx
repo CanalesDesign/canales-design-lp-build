@@ -33,10 +33,10 @@ export default function RootLayout({
       <body className={librefranklin.className}>
         <noscript>
           <iframe
+            className="hidden invisible"
             src="https://www.googletagmanager.com/ns.html?id=GTM-PPRTNJ8C"
             height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}></iframe>
+            width="0"></iframe>
         </noscript>
         {children}
         <CookieEyesBanner />
