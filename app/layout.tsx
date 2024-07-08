@@ -28,9 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="PT-br" className="bg-primary">
-      <GoogleTagManager gtmId="GTM-PPT29TK" />
       <body className={librefranklin.className}>
         {children}
+        <GoogleTagManager gtmId="GTM-PPT29TK" />
         <CookieEyesBanner />
       </body>
     </html>
