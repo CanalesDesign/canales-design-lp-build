@@ -1,4 +1,3 @@
-"use client";
 import { FooterContent, NextContent } from "@/data/footer-data";
 import Container from "@/atoms/container";
 import Heading from "@/atoms/headings";
@@ -48,19 +47,6 @@ export default function Footer() {
                         <Icon
                           className="text-accent hover:text-accent-hove"
                           icon={item.portfolio}
-                        />
-                      </a>
-                      <a
-                        className="block"
-                        onClick={() =>
-                          (window.location.href =
-                            "rodrigo@canalesdesign.com.br")
-                        }
-                        target="_blank"
-                        role="link">
-                        <Icon
-                          className="text-accent hover:text-accent-hover"
-                          icon={item.email}
                         />
                       </a>
                       <a

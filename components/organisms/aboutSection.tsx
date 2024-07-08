@@ -55,19 +55,6 @@ export default function AboutSection() {
                   </a>
                   <a
                     className="block"
-                    onClick={() =>
-                      (window.location.href = "rodrigo@canalesdesign.com.br")
-                    }
-                    target="_blank"
-                    role="link">
-                    <Icon
-                      className="text-accent hover:text-accent-hover"
-                      icon={item.email}
-                    />
-                  </a>
-
-                  <a
-                    className="block"
                     href="https://api.whatsapp.com/send?phone=5541997532248"
                     target="_blank"
                     role="link">
