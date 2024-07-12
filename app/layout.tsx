@@ -1,6 +1,6 @@
 import { Libre_Franklin } from "next/font/google";
 import type { Metadata } from "next";
-import { GoogleTagManager } from "@next/third-parties/google";
+// import { GoogleTagManager } from "@next/third-parties/google";
 import CookieEyesBanner from "@/atoms/cookieEyesBanner";
 
 import "./globals.css";
