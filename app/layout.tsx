@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     "Logo",
     "Web Design",
     "Sites",
+    "Apresentações",
   ],
 };
 
