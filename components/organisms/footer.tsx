@@ -5,7 +5,6 @@ import Paragraphs from "@/atoms/paragraphs";
 import Icon from "@/atoms/icon";
 import Image from "next/image";
 import Overline from "@/atoms/overline";
-import GoogleAgendaButton from "../atoms/googleAgendaButton";
 
 export default function Footer() {
   return (
