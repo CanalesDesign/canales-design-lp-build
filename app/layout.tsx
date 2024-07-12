@@ -32,12 +32,12 @@ export default function RootLayout({
 
   return (
     <html lang="pt-BR" className="bg-primary">
-      <GoogleTagManager gtmId={`${GTM_ID}`} />
+      <GoogleTagManager gtmId="GTM-PPRTNJ8C" />
       <body className={librefranklin.className}>
         <noscript>
           <iframe
             className="hidden invisible"
-            src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-PPRTNJ8C"
             height="0"
             width="0"></iframe>
         </noscript>
