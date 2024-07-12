@@ -22,9 +22,15 @@
       "@/atoms/*": ["./components/atoms/*"],
       "@/molecules/*": ["./components/molecules/*"],
       "@/organisms/*": ["./components/organisms/*"],
-      "@/assets/*": ["./assets/*"],
+      "@/assets/*": ["./assets/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/atoms/gtmScript.tsx"
+  ],
   "exclude": ["node_modules"]
 }
