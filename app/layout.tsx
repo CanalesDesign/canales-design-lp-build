@@ -1,6 +1,6 @@
 import { Libre_Franklin } from "next/font/google";
 import type { Metadata } from "next";
-// import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import CookieEyesBanner from "@/atoms/cookieEyesBanner";
 
 import "./globals.css";
@@ -29,20 +29,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="bg-primary">
-      {/* <GoogleTagManager gtmId="GTM-PPRTNJ8C" /> */}
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=GTM-PPRTNJ8C"
-      />
-
+      <GoogleTagManager gtmId="GTM-PPRTNJ8C" />
       <body className={librefranklin.className}>
-        {/* <noscript>
+        <noscript>
           <iframe
             className="hidden invisible"
             src="https://www.googletagmanager.com/ns.html?id=GTM-PPRTNJ8C"
             height="0"
             width="0"></iframe>
-        </noscript> */}
+        </noscript>
         {children}
         <CookieEyesBanner />
       </body>
