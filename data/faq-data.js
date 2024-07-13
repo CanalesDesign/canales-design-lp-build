@@ -45,7 +45,7 @@ const FaqQuestions = [
     number: "3.",
     question: "Posso pedir um orçamento sem compromisso?",
     answer:
-      "Solicitar um orçamento é fácil. Basta clicar no botão “Converse Comigo“ para que eu possa pegar alguns detalhes para poder fornecer uma proposta bem ajustada às necessidades do cliente.",
+      "Solicitar um orçamento é fácil. Basta clicar no botão “Fale Comigo Agora“ para que eu possa pegar alguns detalhes para poder fornecer uma proposta bem ajustada às necessidades do cliente.",
   },
   {
     id: 6,
