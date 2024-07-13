@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     "Sites",
     "Apresentações",
   ],
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({
@@ -28,8 +31,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  let GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
-
   return (
     <html lang="pt-BR" className="bg-primary">
       <GoogleTagManager gtmId="GTM-PPRTNJ8C" />
