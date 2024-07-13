@@ -52,7 +52,7 @@ const FaqQuestions = [
     number: "6.",
     question: "É possível solicitar alterações no projeto?",
     answer:
-      "Os projetos costumam ter uma rodada de revisões e ajustes sem custo adicional. Rodadas posteriores tem custo adicional de 10% (cada) do valor total do trabalho. Mas tudo isso depende da complexidade de cada projeto.",
+      "Os projetos costumam ter uma rodada de revisões e ajustes sem custo adicional. Rodadas posteriores terão custo adicional mas tudo depende da complexidade de cada projeto.",
   },
 ];
 
