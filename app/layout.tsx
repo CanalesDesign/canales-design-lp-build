@@ -4,6 +4,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import CookieEyesBanner from "@/atoms/cookieEyesBanner";
 
 import "./globals.css";
+import { title } from "process";
 
 const librefranklin = Libre_Franklin({ subsets: ["latin"] });
 
@@ -23,6 +24,14 @@ export const metadata: Metadata = {
   ],
   twitter: {
     card: "summary_large_image",
+  },
+  openGraph: {
+    title: "Canales – Design Centrado na Essência",
+    description: "Identidade Visual que transforma empresas.",
+    type: "website",
+    locale: "pt_BR",
+    url: `${process.env.NEXT_PUBLIC_BASE_URL}`,
+    siteName: "Canales Design",
   },
 };
 
