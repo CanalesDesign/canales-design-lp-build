@@ -18,6 +18,7 @@ export default function AboutSection() {
           src={CanalesPhoto}
           alt="hero image"
           priority={true}
+          sizes="(max-width: 600px) 600px, 364px"
         />
       </div>
       <Container className="flex justify-end">

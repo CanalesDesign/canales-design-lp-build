@@ -4,7 +4,6 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import CookieEyesBanner from "@/atoms/cookieEyesBanner";
 
 import "./globals.css";
-import { title } from "process";
 
 const librefranklin = Libre_Franklin({ subsets: ["latin"] });
 
