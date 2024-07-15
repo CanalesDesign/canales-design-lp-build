@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_BASE_URL}`,
+  },
   openGraph: {
     title: "Canales – Design Centrado na Essência",
     description: "Identidade Visual que transforma empresas.",
