@@ -6,6 +6,7 @@ import Paragraphs from "@/atoms/paragraphs";
 import Icon from "@/atoms/icon";
 import Image from "next/image";
 import CanalesPhoto from "@/assets/rodrigo-canales-designer.webp";
+import CanalesPhotoMobile from "@/assets/rodrigo-canales-designer-small.webp";
 
 const NoSSR = dynamic(() => import("@/atoms/counter"), { ssr: false });
 
@@ -14,11 +15,18 @@ export default function AboutSection() {
     <section className="about-section pt-4 md:pt-0 pb-16 md:pb-24">
       <div className="image-wrapper flex justify-end">
         <Image
-          className="md:w-4/6 md:pl-5"
+          className="md:hidden md:w-4/6 md:pl-5"
+          src={CanalesPhotoMobile}
+          alt="hero image"
+          priority={true}
+          placeholder="blur"
+        />
+        <Image
+          className="hidden md:block md:w-4/6 md:pl-5"
           src={CanalesPhoto}
           alt="hero image"
           priority={true}
-          sizes="(max-width: 600px) 600px, 364px"
+          placeholder="blur"
         />
       </div>
       <Container className="flex justify-end">
