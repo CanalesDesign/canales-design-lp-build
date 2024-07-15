@@ -15,16 +15,16 @@ export default function AboutSection() {
     <section className="about-section pt-4 md:pt-0 pb-16 md:pb-24">
       <div className="image-wrapper flex justify-end">
         <Image
-          className="md:hidden md:w-4/6 md:pl-5"
+          className="md:hidden w-full h-auto"
           src={CanalesPhotoMobile}
-          alt="hero image"
+          alt="Rodrigo Canales Designer"
           priority={true}
           placeholder="blur"
         />
         <Image
           className="hidden md:block md:w-4/6 md:pl-5"
           src={CanalesPhoto}
-          alt="hero image"
+          alt="Rodrigo Canales Designer"
           priority={true}
           placeholder="blur"
         />
