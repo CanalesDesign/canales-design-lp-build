@@ -49,6 +49,7 @@ export default function IsotypeSection() {
             iconRight={<ArrowDown />}
             path="https://canalesdesign.com.br/canales_design_logofolio.pdf"
             target="_blank"
+            rel="noopener noreferrer"
           />
         </div>
       </Container>

@@ -52,6 +52,7 @@ export default function ReviewsSection() {
               iconRight={<ArrowUpRight />}
               path="https://www.google.com/search?q=canales+design&oq=canales+design&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIICAEQABgWGB4yCggCEAAYgAQYogQyBggDEEUYOzIGCAQQRRg90gEIMjEwN2owajeoAgiwAgE&sourceid=chrome&ie=UTF-8"
               target="_blank"
+              rel="noopener noreferrer"
             />
           </div>
         </div>
