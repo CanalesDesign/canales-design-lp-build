@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://canalesdesign.com.br"),
   alternates: {
-    canonical: "/",
+    canonical: "https://canalesdesign.com.br/",
   },
 };
 
