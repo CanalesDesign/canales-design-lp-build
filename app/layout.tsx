@@ -32,10 +32,6 @@ export const metadata: Metadata = {
     url: `${process.env.NEXT_PUBLIC_BASE_URL}`,
     siteName: "Canales Design",
   },
-  metadataBase: new URL("https://canalesdesign.com.br"),
-  alternates: {
-    canonical: "https://canalesdesign.com.br/",
-  },
 };
 
 export default function RootLayout({
@@ -45,6 +41,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="bg-primary">
+      <link href="https://canalesdesign.com.br" rel="canonical" />
       <GoogleTagManager gtmId="GTM-PPRTNJ8C" />
       <body className={librefranklin.className}>
         <noscript>
