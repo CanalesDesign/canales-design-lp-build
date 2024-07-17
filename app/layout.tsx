@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "Canales Design",
   },
   alternates: {
-    canonical: "./",
+    canonical: "https://canalesdesign.com.br/",
   },
 };
 
