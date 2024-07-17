@@ -32,8 +32,9 @@ export const metadata: Metadata = {
     url: `${process.env.NEXT_PUBLIC_BASE_URL}`,
     siteName: "Canales Design",
   },
+  metadataBase: new URL("https://canalesdesign.com.br"),
   alternates: {
-    canonical: "https://canalesdesign.com.br/",
+    canonical: "/",
   },
 };
 
