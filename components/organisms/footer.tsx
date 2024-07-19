@@ -8,7 +8,7 @@ import Overline from "@/atoms/overline";
 
 export default function Footer() {
   return (
-    <section className="footer__section">
+    <footer className="footer__section">
       <Container>
         <div className="footer__section--wrapper md:flex md:justify-between md:items-end border-t-[0.5px] border-secondary-lighter/50 pt-16 pb-8 md:pt-24 md:pb-24">
           {FooterContent.map((item) => {
@@ -91,6 +91,6 @@ export default function Footer() {
           })}
         </div>
       </Container>
-    </section>
+    </footer>
   );
 }

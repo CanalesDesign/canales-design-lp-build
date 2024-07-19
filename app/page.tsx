@@ -11,7 +11,9 @@ import ReviewsSection from "@/components/organisms/reviewsSection";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
       <main>
         <HeroSection />
         <AboutSection />
