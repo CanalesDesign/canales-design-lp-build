@@ -44,7 +44,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="bg-primary">
-      <link href="https://canalesdesign.com.br" rel="canonical" />
+      <link href="https://www.canalesdesign.com.br" rel="canonical" />
       <GoogleTagManager gtmId="GTM-PPRTNJ8C" />
       <body className={librefranklin.className}>
         <noscript>
