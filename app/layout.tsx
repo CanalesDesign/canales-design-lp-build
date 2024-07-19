@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     url: `${process.env.NEXT_PUBLIC_BASE_URL}`,
     siteName: "Canales Design",
   },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_BASE_URL}`,
+  },
 };
 
 export default function RootLayout({
