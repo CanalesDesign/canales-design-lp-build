@@ -18,8 +18,14 @@ export default function HeroSection() {
                 className="text-secondary"
                 headingLevel="h1"
                 levelSize="display">
-                Identidade Visual <br className="hidden md:inline" /> que
-                transforma empresas.
+                Fortaleça a percepção
+                <br />
+                da sua empresa
+                <br />
+                com uma Identidade Visual
+                <br />
+                que transmite confiança
+                <br />e credibilidade.
               </Heading>
               <Paragraphs
                 className="text-secondary max-w-[860px] mt-6"
