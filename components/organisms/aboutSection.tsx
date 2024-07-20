@@ -22,7 +22,7 @@ export default function AboutSection() {
         />
       </div>
       <Container className="flex justify-end">
-        <div className="about-content-wrapper mt-10 md:mt-14 md:w-4/6 ">
+        <div className="about-content-wrapper mt-10 md:mt-14 md:w-4/6 md:pl-6">
           <NoSSR />
           {/* <Counter /> */}
           {AboutContent.map((item) => {
