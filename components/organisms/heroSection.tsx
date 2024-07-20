@@ -7,7 +7,7 @@ import { MessageSquareText } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="hero-section pt-4 pb-8 md:pt-20 md:pb-16">
+    <section className="hero-section pt-2 pb-8 md:pt-4 md:pb-0">
       <Container>
         {HeroContent.map((item) => {
           return (
@@ -15,7 +15,17 @@ export default function HeroSection() {
               className="hero-content-wrapper md:max-w-[954px] md:ml-[110px]"
               key={item.id}>
               <Heading
-                className="text-secondary"
+                className="text-secondary md:hidden"
+                headingLevel="h1"
+                levelSize="display">
+                Fortaleça
+                <br />a percepção
+                <br />
+                da sua empresa com uma Identidade Visual que transmite confiança
+                <br />e credibilidade.
+              </Heading>
+              <Heading
+                className="text-secondary hidden md:inline-block"
                 headingLevel="h1"
                 levelSize="display">
                 Fortaleça a percepção
@@ -28,7 +38,7 @@ export default function HeroSection() {
                 <br />e credibilidade.
               </Heading>
               <Paragraphs
-                className="text-secondary max-w-[860px] mt-6"
+                className="text-secondary max-w-[860px] mt-4"
                 bodySize="body-xl"
                 body={item.body}
               />
