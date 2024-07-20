@@ -45,7 +45,7 @@ export default function IsotypeSection() {
         </div>
         <div className="link__wrapper mt-12 flex justify-center md:justify-end text-accent hover:text-accent-hover">
           <InlineLink
-            label="Faça dowload do Logofolio"
+            label="Faça download do Logofolio"
             iconRight={<ArrowDown />}
             path="https://canalesdesign.com.br/canales_design_logofolio.pdf"
             target="_blank"
