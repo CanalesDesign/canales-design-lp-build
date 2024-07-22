@@ -10,7 +10,7 @@ const FooterContent = [
     id: 1,
     photo: RodrigoCanalesDesigner,
     alt: 'Rodrigo Canales Designer',
-    headline: 'Canales Design, 30 anos de experiência para impulsionar sua empresa.',
+    headline: 'Canales Design, 33 anos de experiência para impulsionar sua empresa.',
     body: 'Rodrigo Canales, designer multidisciplinar, desenvolve identidades visuais autênticas e marcantes centradas na essência e nos valores da sua empresa.',
     linkedin: <Linkedin size={24} />,
     linkedinpath: "https://www.linkedin.com/in/rodcanales/",

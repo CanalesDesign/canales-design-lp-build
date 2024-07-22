@@ -23,7 +23,7 @@ export default function BenefitsSection() {
                   <Heading
                     headingLevel="h2"
                     levelSize="headline-1"
-                    className="md:hidden  text-secondary text-pretty"
+                    className="md:hidden  text-secondary text-balance"
                     headline={item.headline}
                   />
                   <Heading

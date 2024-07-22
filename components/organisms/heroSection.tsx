@@ -20,12 +20,10 @@ export default function HeroSection() {
                 levelSize="display">
                 Identidade Visual
                 <br />
-                que transmite confiança,
+                que transmite credibilidade,
                 <br />
-                credibilidade
-                <br />e fortalece
-                <br />
-                sua empresa.
+                confiança e fortalece
+                <br /> sua empresa.
               </Heading>
               <Heading
                 className="text-secondary hidden md:inline-block"
