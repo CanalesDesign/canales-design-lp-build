@@ -2,7 +2,6 @@ import { Libre_Franklin } from "next/font/google";
 import type { Metadata } from "next";
 import { GoogleTagManager } from "@next/third-parties/google";
 import CookieEyesBanner from "@/atoms/cookieEyesBanner";
-import { Corporation, WithContext } from "schema-dts";
 
 import "./globals.css";
 
@@ -38,15 +37,6 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd: WithContext<Corporation> = {
-  "@context": "https://schema.org",
-  "@type": "Corporation",
-  name: "Canales Design",
-  description: "Identidade Visual, Design, Brandingg",
-  alternateName: "Canales Design",
-  url: "https://www.canalesdesign.com.br",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -55,10 +45,6 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="bg-primary">
       <link href="https://www.canalesdesign.com.br" rel="canonical" />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
       <GoogleTagManager gtmId="GTM-PPRTNJ8C" />
       <body className={librefranklin.className}>
         <noscript>
