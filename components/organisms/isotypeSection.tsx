@@ -38,7 +38,7 @@ export default function IsotypeSection() {
                   headline={item.headline}
                 />
                 <Paragraphs
-                  className="paragraph-mono"
+                  className="paragraph-mono text-balance"
                   bodySize="body-xl"
                   body={item.body}
                 />
