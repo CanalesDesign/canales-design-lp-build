@@ -12,6 +12,10 @@ const paragraph = tv({
       "body-base": "text-base ",
       "body-sm": "text-sm",
     },
+    fontFamily: {
+      primary: "font-sans",
+      secondary: "font-mono",
+    },
   },
   defaultVariants: {
     bodySize: "body-base",

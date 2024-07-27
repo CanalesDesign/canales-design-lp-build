@@ -37,6 +37,15 @@ const config: Config = {
         bold: "700",
       },
     },
+    fontFamily: {
+      sans: [
+        "var(--font-libre-franklin)",
+        "system-ui",
+        "-apple-system",
+        "sans-serif",
+      ],
+      mono: ["var(--font-ibm-plex-mono), monospace"],
+    },
   },
   plugins: [],
 };

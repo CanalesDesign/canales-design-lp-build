@@ -1,11 +1,25 @@
-import { Libre_Franklin } from "next/font/google";
 import type { Metadata } from "next";
 import { GoogleTagManager } from "@next/third-parties/google";
 import CookieEyesBanner from "@/atoms/cookieEyesBanner";
+import { Libre_Franklin, IBM_Plex_Mono } from "next/font/google";
 
 import "./globals.css";
 
-const librefranklin = Libre_Franklin({ subsets: ["latin"] });
+const libre_franklin = Libre_Franklin({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-libre-franklin",
+  fallback: ["system-ui", "-apple-system", "sans-serif"],
+  display: "swap",
+});
+
+const ibm_plex_mono = IBM_Plex_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-ibm-plex-mono",
+  fallback: ["system-ui", "-apple-system", "mono"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Canales Design",
@@ -43,10 +57,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className="bg-primary">
+    <html
+      lang="pt-BR"
+      className={`${ibm_plex_mono.variable} ${libre_franklin.variable}`}>
       <link href="https://www.canalesdesign.com.br" rel="canonical" />
       <GoogleTagManager gtmId="GTM-PPRTNJ8C" />
-      <body className={librefranklin.className}>
+      <body className="bg-primary">
         <noscript>
           <iframe
             className="hidden invisible"

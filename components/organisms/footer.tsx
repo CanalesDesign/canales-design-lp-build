@@ -18,7 +18,7 @@ export default function Footer() {
                   <Image className="md:w-1/6" src={item.photo} alt={item.alt} />
                   <div className="text-wrapper md:w-3/6">
                     <Heading
-                      className="text-secondary mb-2 text-balance"
+                      className="text-secondary mb-4 text-balance"
                       headingLevel="h4"
                       levelSize="headline-4"
                       headline={item.headline}
@@ -26,7 +26,7 @@ export default function Footer() {
                     <Paragraphs
                       body={item.body}
                       bodySize="body-base"
-                      className="text-balance"
+                      className="text-balance paragraph-mono"
                     />
                     <div className="icon-wrapper mt-6 flex items-center gap-2">
                       <a

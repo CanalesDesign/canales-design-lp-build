@@ -38,7 +38,7 @@ export default function HeroSection() {
                 sua empresa.
               </Heading>
               <Paragraphs
-                className="text-secondary max-w-[860px] mt-4 text-balance"
+                className="text-secondary max-w-[860px] mt-6 text-balance paragraph-mono"
                 bodySize="body-xl"
                 body={item.body}
               />

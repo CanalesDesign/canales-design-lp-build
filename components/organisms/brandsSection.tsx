@@ -28,7 +28,7 @@ export default function BrandsSection() {
                   <Paragraphs
                     bodySize="body-xl"
                     body={body}
-                    className="mt-6 lg:mt-8 md:w-5/6"
+                    className="mt-6 lg:mt-8 md:w-5/6 paragraph-mono text-balance"
                   />
                 </div>
               </div>

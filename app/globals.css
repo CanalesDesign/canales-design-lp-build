@@ -18,6 +18,19 @@ body {
   scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-optical-sizing: auto;
+}
+
+.paragraph-mono {
+  font-family: var(--font-ibm-plex-mono);
+}
+
 .benefits__section .benefits__cards--wrapper svg {
   stroke: #9e99a3;
 }

@@ -33,7 +33,7 @@ export default function FaqSection() {
                     headline={item.headline}
                   />
                   <Paragraphs
-                    className="mt-6 lg:mt-8"
+                    className="mt-6 lg:mt-8 paragraph-mono text-balance"
                     bodySize="body-xl"
                     body={item.body}
                   />

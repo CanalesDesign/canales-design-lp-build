@@ -29,7 +29,7 @@ export default function AboutSection() {
             return (
               <div className="about-content" key={item.id}>
                 <Paragraphs
-                  className="mt-6 lg:mt-8 md:w-[800px]"
+                  className="mt-6 lg:mt-8 md:w-[800px] paragraph-mono"
                   body={item.body}
                   bodySize="body-xl"
                 />

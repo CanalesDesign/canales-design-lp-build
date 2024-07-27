@@ -15,7 +15,7 @@ export default function BenefitsSection() {
           <div className="benefits__intro md:w-2/6">
             {BenefitsContent.map((item) => {
               return (
-                <div className="benefits_intro--content lg:pr-6" key={item.id}>
+                <div className="benefits_intro--content lg:pr-4" key={item.id}>
                   <Overline
                     className="text-secondary-lighter"
                     text={item.overline}
@@ -35,7 +35,7 @@ export default function BenefitsSection() {
                   <Paragraphs
                     bodySize="body-xl"
                     body={item.body}
-                    className="text-secondary mt-6 lg:mt-8 mb-6 lg:mb-0 text-balance"
+                    className="text-secondary mt-6 lg:mt-8 mb-6 lg:mb-0 paragraph-mono text-balance"
                   />
                   <Button
                     intent="primary"

@@ -3,7 +3,7 @@ import { ComponentProps, ReactNode } from "react";
 import { tv, VariantProps } from "tailwind-variants";
 
 const button = tv({
-  base: "conversion py-3 px-4 uppercase text-sm font-semibold text-secondary tracking-wide mt-6 md:mt-8 flex items-center justify-center gap-6 transition-all ease-in-out duration-300",
+  base: "conversion py-3 px-4 uppercase text-sm font-semibold text-secondary tracking-wide mt-6 md:mt-8 flex items-center justify-center gap-6 transition-all ease-in-out duration-300 --font-libreFranklin font-sans font-semibold",
   variants: {
     intent: {
       primary: "bg-accent hover:bg-accent-hover hover:translate-y-[1px]",

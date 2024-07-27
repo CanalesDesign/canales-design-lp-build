@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 import { tv, VariantProps } from "tailwind-variants";
 
 const headinglevels = tv({
-  base: "text-h1",
+  base: "text-h1 font-sans font-semibold",
   variants: {
     levelSize: {
       display:

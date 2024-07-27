@@ -37,7 +37,11 @@ export default function IsotypeSection() {
                   levelSize="headline-2"
                   headline={item.headline}
                 />
-                <Paragraphs bodySize="body-xl" body={item.body} />
+                <Paragraphs
+                  className="paragraph-mono"
+                  bodySize="body-xl"
+                  body={item.body}
+                />
               </div>
             );
           })}
