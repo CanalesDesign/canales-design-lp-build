@@ -34,9 +34,15 @@ export default function FaqSection() {
                   />
                   <Paragraphs
                     className="mt-6 lg:mt-8 paragraph-mono text-balance"
-                    bodySize="body-xl"
-                    body={item.body}
-                  />
+                    bodySize="body-xl">
+                    Nesta seção, você encontrará respostas claras e diretas para
+                    as perguntas mais frequentes sobre nossos serviços de
+                    Identidade Visual.{" "}
+                    <span className="highlight">
+                      Queremos garantir que você tenha todas as informações
+                      necessárias para tomar sua decisão.
+                    </span>
+                  </Paragraphs>
                   <Button
                     intent="primary"
                     label={item.cta}

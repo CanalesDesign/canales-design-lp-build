@@ -39,9 +39,15 @@ export default function IsotypeSection() {
                 />
                 <Paragraphs
                   className="paragraph-mono text-balance"
-                  bodySize="body-xl"
-                  body={item.body}
-                />
+                  bodySize="body-xl">
+                  Os logotipos com símbolos geométricos oferecem um
+                  reconhecimento instantâneo e são fáceis de memorizar. Eles são
+                  adaptáveis, simples e claros em qualquer formato. Além disso,
+                  garantem coerência e qualidade visual em diversas escalas,{" "}
+                  <span className="highlight">
+                    fortalecendo a identidade da sua marca.
+                  </span>
+                </Paragraphs>
               </div>
             );
           })}

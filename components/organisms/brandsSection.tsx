@@ -27,9 +27,14 @@ export default function BrandsSection() {
                   />
                   <Paragraphs
                     bodySize="body-xl"
-                    body={body}
-                    className="mt-6 lg:mt-8 md:w-5/6 paragraph-mono text-balance"
-                  />
+                    className="mt-6 lg:mt-8 md:w-5/6 paragraph-mono text-balance">
+                    Com 33 anos de jornada, colaboramos com empresas renomadas
+                    em diversos setores, proporcionando soluções práticas e
+                    relevantes{" "}
+                    <span className="highlight">
+                      que podem ser adaptadas para negócios de todos os tamanhos
+                    </span>
+                  </Paragraphs>
                 </div>
               </div>
             );

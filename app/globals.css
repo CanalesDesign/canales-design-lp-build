@@ -51,3 +51,7 @@ h6 {
   display: none !important;
   visibility: hidden !important;
 }
+
+.highlight {
+  background-color: #ecf060;
+}

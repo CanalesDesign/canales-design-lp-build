@@ -37,12 +37,16 @@ export default function HeroSection() {
                 <br />
                 sua empresa.
               </Heading>
+
               <Paragraphs
                 className="text-secondary max-w-[860px] mt-6 text-balance paragraph-mono"
-                bodySize="body-xl"
-                body={item.body}
-              />
-
+                bodySize="body-xl">
+                Conecte-se com seu público e crie mais valor para sua empresa
+                desenvolvendo uma Identidade Visual que vai{" "}
+                <span className="highlight">
+                  destacar você no mercado e promover crescimento.
+                </span>
+              </Paragraphs>
               <Button
                 intent="primary"
                 label={item.cta}

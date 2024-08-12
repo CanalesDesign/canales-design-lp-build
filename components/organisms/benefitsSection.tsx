@@ -34,9 +34,14 @@ export default function BenefitsSection() {
                   />
                   <Paragraphs
                     bodySize="body-xl"
-                    body={item.body}
-                    className="text-secondary mt-6 lg:mt-8 mb-6 lg:mb-0 paragraph-mono text-balance"
-                  />
+                    className="text-secondary mt-6 lg:mt-8 mb-6 lg:mb-0 paragraph-mono text-balance">
+                    Uma identidade visual profissional{" "}
+                    <span className="highlight">
+                      transforma a percepção do cliente, aumenta a credibilidade
+                      e impulsiona o crescimento da sua empresa.
+                    </span>{" "}
+                    Veja como nosso design pode impactar sua marca.
+                  </Paragraphs>
                   <Button
                     intent="primary"
                     label={item.cta}

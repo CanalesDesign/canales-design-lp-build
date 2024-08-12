@@ -26,7 +26,7 @@ interface ParagraphProps
   extends ComponentProps<"p">,
     VariantProps<typeof paragraph> {
   children?: ReactNode;
-  body: string;
+  body?: string;
 }
 
 export default function Paragraphs({
@@ -39,6 +39,7 @@ export default function Paragraphs({
   return (
     <p className={paragraph({ bodySize, className })} {...props}>
       {body}
+      {children}
     </p>
   );
 }

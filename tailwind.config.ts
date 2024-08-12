@@ -24,6 +24,9 @@ const config: Config = {
           DEFAULT: "#2BCEF9",
           hover: "#19C3F0",
         },
+        highlight: {
+          DEFAULT: "#ECF060",
+        },
         black: "#141315",
       },
       fontSize: {

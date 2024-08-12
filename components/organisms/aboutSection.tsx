@@ -30,9 +30,14 @@ export default function AboutSection() {
               <div className="about-content" key={item.id}>
                 <Paragraphs
                   className="mt-6 lg:mt-8 md:w-[800px] paragraph-mono"
-                  body={item.body}
-                  bodySize="body-xl"
-                />
+                  bodySize="body-xl">
+                  Eu sou Rodrigo Canales, designer multidisciplinar comprometido
+                  em ajudar sua empresa a se destacar. Transformo desafios em
+                  soluções que superam expectativas e{" "}
+                  <span className="highlight">
+                    causam impacto real nos negócios.
+                  </span>
+                </Paragraphs>
                 <div className="icon-wrapper mt-6 flex items-center gap-2">
                   <a
                     className="block"

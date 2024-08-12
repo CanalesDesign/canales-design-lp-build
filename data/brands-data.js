@@ -11,7 +11,7 @@ const BrandsIntro = [
   {
     id: 1,
     headline: "Experiência com marcas de destaque ao alcance da sua empresa.",
-    body: "Com mais de 30 anos de jornada, colaboramos com empresas renomadas em diversos setores, proporcionando soluções práticas e relevantes que podem ser adaptadas para negócios de todos os tamanhos",
+    body: "Com 33 anos de jornada, colaboramos com empresas renomadas em diversos setores, proporcionando soluções práticas e relevantes que podem ser adaptadas para negócios de todos os tamanhos",
   },
 ]; 
 

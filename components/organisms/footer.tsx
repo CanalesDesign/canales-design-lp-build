@@ -24,10 +24,14 @@ export default function Footer() {
                       headline={item.headline}
                     />
                     <Paragraphs
-                      body={item.body}
                       bodySize="body-base"
-                      className="text-balance paragraph-mono"
-                    />
+                      className="text-balance paragraph-mono">
+                      Rodrigo Canales, designer multidisciplinar, desenvolve
+                      Identidades Visuais autênticas e marcantes{" "}
+                      <span className="highlight">
+                        centradas na essência e nos valores da sua empresa.
+                      </span>
+                    </Paragraphs>
                     <div className="icon-wrapper mt-6 flex items-center gap-2">
                       <a
                         className="block"
