@@ -7,7 +7,7 @@ const FaqIntro = [
     path: "https://api.whatsapp.com/send?phone=5541997532248",
     rel: "noopener noreferrer",
     target: "_blank",
-    cta: "fale comigo agora"
+    cta: "agende uma conversa"
   },
 ];
 
