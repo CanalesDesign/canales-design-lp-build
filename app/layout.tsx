@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { GoogleTagManager } from "@next/third-parties/google";
 import CookieEyesBanner from "@/atoms/cookieEyesBanner";
 import { Libre_Franklin, IBM_Plex_Mono } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
 
@@ -62,6 +64,8 @@ export default function RootLayout({
       className={`${ibm_plex_mono.variable} ${libre_franklin.variable}`}>
       <link href="https://www.canalesdesign.com.br" rel="canonical" />
       <GoogleTagManager gtmId="GTM-PPRTNJ8C" />
+      <Analytics />
+      <SpeedInsights />
       <body className="bg-primary">
         <noscript>
           <iframe
