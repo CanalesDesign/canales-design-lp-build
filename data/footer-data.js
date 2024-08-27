@@ -18,7 +18,8 @@ const FooterContent = [
     portfoliopath: "https://canalesid.com.br/",
     email: <Send size={24} />,
     emailpath: "mailto:rodrigo@canalesdesign.com.br",
-    whatsapp:<MessageSquareText size={24} />,
+    // whatsapp:<MessageSquareText size={24} />,
+    whatsapp: "whatsapp: +55 419 9753 2248",
     whatsapppath: "https://api.whatsapp.com/send?phone=5541997532248",
     target: "_blank"
   },

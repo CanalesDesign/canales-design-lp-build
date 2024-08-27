@@ -33,7 +33,7 @@ export default function Footer() {
                       </span>
                     </Paragraphs>
                     <div className="icon-wrapper mt-6 flex items-center gap-2">
-                      <a
+                      {/* <a
                         className="block"
                         href={item.linkedinpath}
                         target="_blank"
@@ -52,7 +52,7 @@ export default function Footer() {
                           className="text-accent hover:text-accent-hove"
                           icon={item.portfolio}
                         />
-                      </a>
+                      </a> */}
                       <a
                         className="block"
                         href={item.whatsapppath}
